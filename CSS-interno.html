@@ -42,4 +42,80 @@
 </html>
 <!--
     
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        CSS-interno.html
+        css-inline.html
+        imagem.jpeg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git add .
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   CSS-interno.html
+        new file:   css-inline.html
+        new file:   imagem.jpeg
+
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git commit -m "Arquivos da aula de html e css"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'pedro@DESKTOP-9L7MD0L.(none)')
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git config --global user.name PedroHenrique1305
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git config --global user.name
+PedroHenrique1305
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git config --global user.email pedro.cardoso@sptech.school
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git config --global user.email
+pedro.cardoso@sptech.school
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git commit -m "Arquivos da aula de html e css"
+[main 05aa13f] Arquivos da aula de html e css
+ 3 files changed, 68 insertions(+)
+ create mode 100644 CSS-interno.html
+ create mode 100644 css-inline.html
+ create mode 100644 imagem.jpeg
+
+pedro@DESKTOP-9L7MD0L MINGW64 ~/Downloads/meu-primeiro-reposit-rio (main)
+$ git push
+
 -->
